@@ -1,0 +1,17 @@
+{
+  "titre": "Contact",
+  "intro": "Vous souhaitez en savoir plus sur la campagne, proposer une idée ou simplement échanger avec nous ? Je reste à votre écoute, avec mon équipe, pour répondre à vos questions et recueillir vos propositions.",
+  "formulaireTexte": "Laissez-nous vos coordonnées pour recevoir nos actualités, les invitations aux réunions publiques et les actions de terrain proches de chez vous.",
+  "permanences": [
+    {
+      "titre": "Permanence principale",
+      "adresse": "Centre-ville du Tampon",
+      "horaires": "Du lundi au vendredi, de 9h à 17h"
+    },
+    {
+      "titre": "Permanence du 17ème km",
+      "adresse": "17ème km, Le Tampon",
+      "horaires": "Ouverte tous les samedis de 9h à 12h"
+    }
+  ]
+}

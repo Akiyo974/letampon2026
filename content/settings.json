@@ -1,0 +1,28 @@
+{
+  "siteName": "Alexis Chaussalet – Le Tampon 2026",
+  "slogan": "Nout' voix, nout' l'avenir",
+  "description": "Comment imaginer Le Tampon en 2026 pour les municipales ? Pour préparer l'avenir, il nous faut prévoir dès maintenant Le Tampon de demain.",
+  "logo": "/images/logo.png",
+  "favicon": "/favicon.ico",
+  "reseaux": {
+    "facebook": "https://www.facebook.com/letampon2026",
+    "instagram": "",
+    "twitter": "",
+    "youtube": ""
+  },
+  "permanence": {
+    "adresse": "Centre-ville du Tampon",
+    "horaires": "Du lundi au vendredi de 9h à 17h",
+    "permanence17": "Permanence du 17ème km ouverte tous les samedis de 9h à 12h"
+  },
+  "contact": {
+    "email": "contact@letampon2026.com",
+    "telephone": ""
+  },
+  "colors": {
+    "violet": "#9C35DD",
+    "vert": "#4EB168",
+    "jaune": "#FEED00",
+    "rouge": "#EF1923"
+  }
+}

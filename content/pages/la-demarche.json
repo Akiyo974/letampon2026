@@ -1,0 +1,27 @@
+{
+  "titre": "La démarche",
+  "sousTitre": "Le Tampon 2026 : Une Initiative Citoyenne pour Transformer Notre Ville",
+  "intro": "Le Tampon 2026 est une initiative citoyenne portée par des habitants qui aiment leur ville et veulent améliorer la qualité de vie au Tampon. Notre objectif ? Permettre aux habitants de prendre part aux décisions communales et de proposer des projets concrets pour l'avenir de notre territoire.",
+  "imageHero": "https://letampon2026.com/wp-content/uploads/2025/10/LE-T-scaled.png",
+  "paragraphe2": "Depuis mai 2024, notre groupe rassemble des tamponnais de tous horizons : jeunes et moins jeunes, agriculteurs, enseignants, professionnels de santé, acteurs culturels, retraités, étudiants, sportifs… Cette diversité fait notre richesse et garantit une représentation authentique de notre commune.",
+  "piliers": [
+    {
+      "titre": "S'exprimer en ligne",
+      "description": "Partagez vos idées et propositions via notre formulaire en ligne. Chaque contribution compte dans la construction de notre programme commun.",
+      "image": "https://letampon2026.com/wp-content/uploads/2025/10/Copie-de-DSC_1587-scaled.jpg"
+    },
+    {
+      "titre": "Se réunir dans les quartiers",
+      "description": "Trois façons de s'impliquer, un même objectif : faire grandir notre commune avec toutes et tous.",
+      "image": "https://letampon2026.com/wp-content/uploads/2025/10/Copie-de-DSC_1621-scaled.jpg"
+    },
+    {
+      "titre": "Contribuer ensemble sur le terrain",
+      "description": "Grâce à votre mobilisation, nous avons collecté des centaines de contributions qui dessinent les contours de notre programme commun.",
+      "image": "https://letampon2026.com/wp-content/uploads/2025/10/Copie-de-DSC_1703-scaled.jpg"
+    }
+  ],
+  "conclusion": "Votre participation compte. Notre campagne est une aventure collective, ancrée dans la réalité du Tampon et portée par celles et ceux qui la vivent au quotidien.",
+  "ctaTexte": "Nous contacter",
+  "ctaLien": "/contact"
+}

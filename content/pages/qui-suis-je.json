@@ -1,0 +1,23 @@
+{
+  "titre": "Qui suis-je ?",
+  "nom": "Alexis Chaussalet",
+  "photoPortrait": "https://letampon2026.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-22.00.02.jpeg",
+  "accroche": "Dès mes débuts à l'UNL, j'ai compris que le changement vient de celles et ceux qui s'organisent ensemble.",
+  "biographie": [
+    "Depuis ma scolarité au lycée au Tampon, j'ai compris que le changement vient de celles et ceux qui s'organisent ensemble.",
+    "Par la suite, j'ai poursuivi mon engagement pour la justice sociale, fiscale et climatique au sein de l'association Attac, où j'ai été salarié et militant actif pendant près de quatre ans.",
+    "Votre participation compte. Notre campagne est une aventure collective, ancrée dans la réalité du Tampon et portée par celles et ceux qui la vivent au quotidien."
+  ],
+  "photos": [
+    "https://letampon2026.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-22.00.02.jpeg",
+    "https://letampon2026.com/wp-content/uploads/2025/10/P1120261-scaled.jpg",
+    "https://letampon2026.com/wp-content/uploads/2025/10/781DA568-14DA-42B9-BD05-FF434BEB2A7E_1_105_c.jpeg"
+  ],
+  "valeurs": [
+    { "titre": "Justice sociale", "description": "Militant pour l'égalité et la réduction des inégalités au sein du territoire tamponnais." },
+    { "titre": "Démocratie réelle", "description": "Donner le pouvoir aux citoyens pour qu'ils décident eux-mêmes de leur avenir." },
+    { "titre": "Engagement écologique", "description": "Construire un Tampon résilient et respectueux de son environnement exceptionnel." }
+  ],
+  "ctaTexte": "Nous contacter",
+  "ctaLien": "/contact"
+}

@@ -1,0 +1,82 @@
+{
+  "hero": {
+    "titre": "Nout' voix, nout' l'avenir",
+    "sousTitre": "Militant depuis de nombreuses années, j'ai toujours cru en la force du collectif et en la capacité des citoyens à transformer leur territoire. Aujourd'hui, c'est cette conviction et mon expérience que je souhaite mettre au service de ma commune : Le Tampon.",
+    "image": "https://letampon2026.com/wp-content/uploads/2026/03/banniere-1024x512.jpeg",
+    "ctaPrimaire": { "texte": "Découvrir la liste", "lien": "/la-liste" },
+    "ctaSecondaire": { "texte": "Notre programme", "lien": "/programme" }
+  },
+  "sections": [
+    {
+      "id": "faire-autrement",
+      "type": "texte-image",
+      "titre": "Faire de la politique autrement, au Tampon.",
+      "contenu": "Trop de promesses électorales restent lettre morte. Avec la liste « Nout' voix, nout' l'avenir », nous voulons redonner le pouvoir aux Tamponnaises et aux Tamponnais.",
+      "image": "https://letampon2026.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-21.14.16.jpeg",
+      "imagePosition": "droite",
+      "ctaTexte": "Qui suis-je ?",
+      "ctaLien": "/qui-suis-je"
+    },
+    {
+      "id": "contributions",
+      "type": "citations",
+      "titre": "Quelques-unes de vos contributions :",
+      "citations": [
+        "Des réunions de quartier qui ne se résument pas qu'à de la consultation mais aussi à la prise de décision",
+        "Lutter et prévenir les abus, la corruption et les pratiques frauduleuses",
+        "Mettre des arbres dans les écoles",
+        "Pour plus d'espaces pour les réunions des associations",
+        "Assurer des conditions scolaires dignes aux enfants et Jeunes du Tampon",
+        "Meilleur bus pour la Plaine des Cafres",
+        "Ajouter un Skate Park",
+        "Plus de bus",
+        "Rendre les parcs, jardins et aire de pique-nique plus inclusif pour les personnes en situation de handicap",
+        "Organiser des consultation, référendum locaux pour les projets d'envergure sur la commune",
+        "Faire plus de petits marchés de petits producteurs et productrices",
+        "Garantir un service public de proximité",
+        "Favoriser les mobilités douces",
+        "Plus d'Atsem dans les écoles primaires",
+        "Promouvoir et faciliter la vente directe des produits locaux",
+        "Proposer des activités pour les enfants sur les temps périscolaires",
+        "Établir un plafonnement des loyers sur la commune"
+      ]
+    },
+    {
+      "id": "rien-sans-vous",
+      "type": "texte-centré",
+      "titre": "Rien ne se fera sans vous",
+      "contenu": "C'est pourquoi notre campagne repose sur une démarche participative et inclusive : écouter, échanger, construire ensemble l'avenir du Tampon. Nous avons à cœur de vous permettre de prendre part aux décisions communales et de proposer des projets concrets pour l'avenir de notre territoire.\n\nChaque rencontre, chaque idée, chaque voix compte pour bâtir une commune plus juste et plus vivante.",
+      "ctaTexte": "Notre démarche",
+      "ctaLien": "/la-demarche"
+    },
+    {
+      "id": "terrain",
+      "type": "cartes-terrain",
+      "titre": "Retrouvez ici tous nos temps forts à venir : réunions, rencontres citoyennes…",
+      "cartes": [
+        {
+          "titre": "Sur les marchés forains",
+          "description": "Sur les marchés, on parle du quotidien, on partage des idées, on construit ensemble le futur de notre commune."
+        },
+        {
+          "titre": "En porte à porte",
+          "description": "Dans chaque quartier, une même volonté : rapprocher les citoyens et donner vie aux projets collectifs."
+        },
+        {
+          "titre": "Lors des réunions publiques",
+          "description": "Des temps d'échange ouverts à toutes et tous pour débattre, proposer et co-construire les actions à venir."
+        }
+      ],
+      "ctaTexte": "Voir l'agenda",
+      "ctaLien": "/agenda"
+    },
+    {
+      "id": "contact-bas",
+      "type": "contact-résumé",
+      "titre": "Vous voulez nous exprimer vos idées ou votre soutien ?",
+      "contenu": "Votre participation compte. Notre campagne est une aventure collective, ancrée dans la réalité du Tampon et portée par celles et ceux qui la vivent au quotidien.",
+      "ctaTexte": "Nous contacter",
+      "ctaLien": "/contact"
+    }
+  ]
+}

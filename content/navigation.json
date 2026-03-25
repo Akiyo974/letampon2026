@@ -1,0 +1,11 @@
+{
+  "items": [
+    { "id": "accueil", "label": "Accueil", "href": "/", "visible": true },
+    { "id": "programme", "label": "Programme", "href": "/programme", "visible": true },
+    { "id": "la-demarche", "label": "La démarche", "href": "/la-demarche", "visible": true },
+    { "id": "qui-suis-je", "label": "Qui suis-je ?", "href": "/qui-suis-je", "visible": true },
+    { "id": "la-liste", "label": "La Liste", "href": "/la-liste", "visible": true },
+    { "id": "agenda", "label": "Agenda", "href": "/agenda", "visible": true },
+    { "id": "contact", "label": "Contact", "href": "/contact", "visible": true }
+  ]
+}

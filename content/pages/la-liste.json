@@ -1,0 +1,556 @@
+{
+  "titre": "La Liste Nout Voix Nout l'Avenir",
+  "intro": "56 candidates et candidats du Tampon, de tous horizons, unis pour construire un projet municipal qui répond aux besoins réels de la population.",
+  "membres": [
+    {
+      "numero": 1,
+      "nom": "Alexis Chaussalet",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/1.png",
+      "bio": "Engagé dès le lycée au Tampon, Alexis Chaussalet s'est formé très tôt au militantisme en créant la section locale de l'UNL à 15 ans. Militant pour la justice sociale, fiscale et climatique, il a poursuivi son engagement au sein d'Attac. Il est animé par la conviction que l'action collective et la démocratie réelle sont les clés du changement pour le Tampon.",
+      "role": "Tête de liste",
+      "quartier": "Centre-ville",
+      "profession": "Chargé de mission",
+      "age": 32
+    },
+    {
+      "numero": 2,
+      "nom": "Danon Odayen",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/18.png",
+      "bio": "Écologiste affirmée, Danon Odayen milite activement pour la protection des richesses naturelles et du vivant. Anthropologue de formation, elle est également formatrice en éducation, en langues, en sport et en sciences sociales. Elle est engagée pour la construction d'un avenir respectueux de la Terre et des générations futures. Elle est référente d'EELV au Tampon.",
+      "role": "",
+      "quartier": "La Pointe / Bel-Air",
+      "profession": "Directrice de cabinet de formation à la retraite",
+      "age": 68
+    },
+    {
+      "numero": 3,
+      "nom": "Éric Ducroux",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/6.png",
+      "bio": "Ancien professeur agrégé d'économie et de gestion au lycée et en classes préparatoires, Éric Ducroux est retraité de l'Éducation nationale et militant de longue date. Convaincu que la transformation sociale passe par le partage du pouvoir et la démocratie citoyenne, il défend une commune où les habitantes et habitants décident réellement de leur avenir.",
+      "role": "",
+      "quartier": "Les 400",
+      "profession": "Ancien professeur agrégé d'économie et de gestion",
+      "age": 70
+    },
+    {
+      "numero": 4,
+      "nom": "Pauline Lauret",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/17.png",
+      "bio": "Originaire du Petit Tampon, Pauline est la présidente de l'Union des femmes réunionnaises. Engagée dans le monde associatif, Pauline Lauret s'investit au service de la jeunesse et de l'éducation. Son engagement vise à renforcer l'accès aux droits, la formation et l'émancipation par le savoir.",
+      "role": "",
+      "quartier": "Petit Tampon",
+      "profession": "Collaboratrice de groupe",
+      "age": 31
+    },
+    {
+      "numero": 5,
+      "nom": "Aurélien Picard",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/2.png",
+      "bio": "Agent technique à la Cité du Volcan, Aurélien Picard a grandi et vit au 23e km. Après un passage en Hexagone pour ses études, il a participé aux marches pour le climat. Il est rentré pour s'engager et renouveler les pratiques politiques locales. Ses thématiques clés : les questions de mobilité et les enjeux de transition.",
+      "role": "",
+      "quartier": "23e km",
+      "profession": "Agent technique à la Cité du Volcan",
+      "age": 25
+    },
+    {
+      "numero": 6,
+      "nom": "Christine Gauthier-Vidot",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/8.png",
+      "bio": "Ayant grandi au centre-ville et résidant aujourd'hui à Trois-Mares, Christine Gauthier-Vidot a mené une carrière d'éducatrice spécialisée. Militante pour l'égalité femmes-hommes et engagée dans la protection de l'enfance, elle porte le projet d'une Maison des Femmes au Tampon afin d'accompagner et protéger celles qui en ont besoin.",
+      "role": "",
+      "quartier": "Trois-Mares",
+      "profession": "Retraitée de la fonction publique territoriale",
+      "age": 56
+    },
+    {
+      "numero": 7,
+      "nom": "Gilbert La Porte",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/29.png",
+      "bio": "Habitant de Bourg-Murat, Gilbert La Porte est reconnu pour son expertise en droit du travail et son engagement constant dans les combats collectifs. Défenseur des salariés et passionné de randonnée, il s'est illustré par son opposition à des projets écocides menaçant le territoire.",
+      "role": "",
+      "quartier": "Bourg-Murat",
+      "profession": "Inspecteur du travail retraité",
+      "age": 67
+    },
+    {
+      "numero": 8,
+      "nom": "Candy Otal",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/21.png",
+      "bio": "Jeune Tamponnaise engagée et diplômée de Sciences Po, Candy Otal souhaite s'impliquer pleinement dans la vie locale et contribuer à un projet collectif fondé sur la solidarité, l'inclusivité et l'avenir de la jeunesse. Elle est passionnée par les relations internationales et travaille en tant qu'ingénieure de projets européens.",
+      "role": "",
+      "quartier": "Les 400",
+      "profession": "Ingénieure de projet UE",
+      "age": 24
+    },
+    {
+      "numero": 9,
+      "nom": "Cédric Dijoux",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/19.png",
+      "bio": "Assistant de formation au GRETA, Cédric Dijoux est également vice-président d'une association socioculturelle et membre de la Ligue réunionnaise de football. Ancien animateur socioculturel dans le quartier prioritaire des Araucarias, il milite pour davantage d'animations de proximité, notamment à travers les Kaz 2 Kartié.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Assistant de formation",
+      "age": 35
+    },
+    {
+      "numero": 10,
+      "nom": "Christelle Olichon",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/5.png",
+      "bio": "Habitante du 12e km, Christelle Olichon est professeure certifiée d'allemand. Profondément attachée au Tampon, sa ville de cœur, elle met son expérience éducative au service de la transmission, de l'ouverture culturelle et de l'égalité des chances.",
+      "role": "",
+      "quartier": "12e km",
+      "profession": "Professeure d'allemand",
+      "age": 47
+    },
+    {
+      "numero": 11,
+      "nom": "Corentin Idmont",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/10.png",
+      "bio": "Il a grandi à Bourg-Murat et s'est engagé pour faire entendre la voix de la population sur l'avenir de notre belle commune. Passé par Sciences Po, il veut particulièrement aider à construire l'avenir du Tampon, qui mêle rural et urbain d'une manière singulière. Il souhaite en faire une ville modèle pour La Réunion de demain.",
+      "role": "",
+      "quartier": "Bourg-Murat",
+      "profession": "Médiateur culturel",
+      "age": 25
+    },
+    {
+      "numero": 12,
+      "nom": "Marie-Pierre Murat",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/49.png",
+      "bio": "Habitante du centre-ville, Marie-Pierre Murat est institutrice retraitée et militante engagée de longue date. Elle a participé à de nombreux combats sociaux, notamment au sein du mouvement des Gilets jaunes et contre la réforme des retraites. Ses priorités : la lutte contre la pauvreté et l'accompagnement des personnes isolées et sans-abri.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Professeure des écoles à la retraite",
+      "age": 64
+    },
+    {
+      "numero": 13,
+      "nom": "Dominique Lebot",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/16.png",
+      "bio": "Habitant du quartier de la SIDR 400, Dominique Lebot est retraité de l'animation et de l'Éducation populaire. Engagé de longue date dans le milieu associatif, ancien président d'un club de volley et impliqué dans un club de football, il défend une démarche collective fondée sur l'écoute, le respect et la construction commune du Tampon de demain.",
+      "role": "",
+      "quartier": "Les 400",
+      "profession": "Retraité de l'animation et de l'Éducation populaire",
+      "age": 64
+    },
+    {
+      "numero": 14,
+      "nom": "Julie Anzoully",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/7.png",
+      "bio": "Habitante de Bras-de-Pontho, Julie Anzoully est professeure des écoles et a également exercé comme directrice d'établissement. Engagée pour l'éducation et l'égalité des chances, elle souhaite mettre son expérience au service des enfants en situation de handicap et de leurs familles.",
+      "role": "",
+      "quartier": "Bras-de-Pontho",
+      "profession": "Professeure des écoles",
+      "age": 31
+    },
+    {
+      "numero": 15,
+      "nom": "André Béton",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/39.png",
+      "bio": "Habitant de Bourg-Murat, André Béton est à la fois artiste et cuisinier passionné, connu sous le nom de « caritologue ». Attaché à la culture locale et au partage, il incarne une approche populaire, créative et humaine de l'engagement.",
+      "role": "",
+      "quartier": "Bourg-Murat",
+      "profession": "Artiste et cuisinier",
+      "age": 64
+    },
+    {
+      "numero": 16,
+      "nom": "Katell Louarn",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/15.png",
+      "bio": "Retraitée de l'Éducation nationale, Katell Louarn a longtemps travaillé aux côtés des familles de la Plaine des Cafres, à l'école de Grande Ferme. Militante expérimentée, elle se bat pour la justice sociale, l'égalité, l'éducation pour toutes et tous et les droits des travailleurs.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Professeure des écoles à la retraite",
+      "age": 69
+    },
+    {
+      "numero": 17,
+      "nom": "Rémi Cazal",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/40.png",
+      "bio": "Habitant de Trois-Mares, Rémi Cazal est intermittent du spectacle, représentant syndical CGTR et musicien au sein du groupe Grèn Sémé. Il s'engage pour un Tampon dynamique, où la culture, la création artistique et la vie collective rayonnent dans tous les quartiers.",
+      "role": "",
+      "quartier": "Trois-Mares",
+      "profession": "Musicien",
+      "age": 39
+    },
+    {
+      "numero": 18,
+      "nom": "Céline Bélair",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/4.png",
+      "bio": "Âgée de 37 ans, Céline Bélair vit à Trois-Mares et est enseignante. Mère d'un garçon, militante depuis le lycée, elle s'engage pour que les citoyen.ne.s se réapproprient leur démocratie et construisent un Tampon plus juste, répondant réellement aux besoins de chacun.",
+      "role": "",
+      "quartier": "Trois-Mares",
+      "profession": "Professeure des écoles",
+      "age": 37
+    },
+    {
+      "numero": 19,
+      "nom": "Philippe Taupin",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/50.png",
+      "bio": "Habitant du Dassy, Philippe Taupin est médecin ophtalmologiste et père de famille. Militant de longue date, il s'intéresse particulièrement aux conditions d'exercice et de travail des agents communaux, convaincu qu'un service public fort repose sur des agents respectés.",
+      "role": "",
+      "quartier": "Dassy",
+      "profession": "Ophtalmologue",
+      "age": 61
+    },
+    {
+      "numero": 20,
+      "nom": "Clémentine Judith",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/14.png",
+      "bio": "Clémentine Judith est originaire de Trois-Mares et habite désormais la Chatoire. Elle est agente de nettoyage de métier mais combattante dans l'âme. Mère de quatre enfants, c'est une femme engagée dans le milieu associatif et sportif. Elle souhaite mettre son énergie à répondre au mieux aux problématiques de la population tamponnaise.",
+      "role": "",
+      "quartier": "Trois-Mares",
+      "profession": "Agente d'entretien polyvalente",
+      "age": 48
+    },
+    {
+      "numero": 21,
+      "nom": "Jean-Eudes Dallou",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/36.png",
+      "bio": "Retraité et ancien directeur de pôle à la Fondation Père Favron, Jean-Eudes Dallou a consacré sa carrière à l'action sociale et à l'accompagnement des publics les plus fragiles. Attaché à des valeurs fortes de solidarité et de dignité, il est également très engagé pour la transition écologique et la préservation du patrimoine naturel réunionnais. Il est membre de Place Publique.",
+      "role": "",
+      "quartier": "Champcourt",
+      "profession": "Ancien directeur de pôle social",
+      "age": 65
+    },
+    {
+      "numero": 22,
+      "nom": "Nadège Naty",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/24.png",
+      "bio": "Habitante de Bérive, Nadège Naty exerce dans le domaine de la recherche au Centre Hospitalier Universitaire de La Réunion. Elle s'intéresse particulièrement aux enjeux de santé publique et de recherche au service de la population.",
+      "role": "",
+      "quartier": "Bérive",
+      "profession": "Technicienne hospitalière / Chercheuse en recherche clinique et épidémiologie",
+      "age": 54
+    },
+    {
+      "numero": 23,
+      "nom": "Mickaël Verbar",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/45.png",
+      "bio": "Habitant du 12e km, Mickaël Verbar est agent de service hospitalier. Animé par des valeurs de solidarité et d'entraide, il est également administrateur du groupe citoyen « Cœur tamponnais ». Il souhaite renforcer la bienveillance, l'entraide et le lien social au Tampon.",
+      "role": "",
+      "quartier": "12e km",
+      "profession": "Agent de service hospitalier qualifié",
+      "age": 46
+    },
+    {
+      "numero": 24,
+      "nom": "Hanessa Hoarau",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/26.png",
+      "bio": "Professeure en lycée professionnel et habitante de Trois-Mares, Hanessa Hoarau est maman de deux garçons. Elle s'est engagée pour que les professeurs stagiaires réunionnais puissent rester sur le territoire. Les compétences locales, le développement humain et les solidarités sont au cœur de ses priorités.",
+      "role": "",
+      "quartier": "Trois-Mares",
+      "profession": "Professeure en lycée professionnel",
+      "age": 39
+    },
+    {
+      "numero": 25,
+      "nom": "Didier Serveaux",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/38.png",
+      "bio": "Habitant du 19e et originaire de la Ravine Blanche, Didier Serveaux est agent d'accueil à la Cité du Volcan et membre actif de l'association ESERB. Malgré son déménagement, sa priorité reste la Ravine Blanche, où il a grandi : engagé pour le dynamisme citoyen et la valorisation des initiatives locales, il poursuit son combat en rejoignant notre liste.",
+      "role": "",
+      "quartier": "19e km",
+      "profession": "Agent d'accueil",
+      "age": 48
+    },
+    {
+      "numero": 26,
+      "nom": "Nathalie Ah-Hot",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/34.png",
+      "bio": "Habitante des 400, Nathalie Ah-Hot est secrétaire administrative de l'Éducation nationale et exerce dans l'un des lycées du Tampon. Ancienne déléguée syndicale, militante politique de longue date, engagée dans le milieu associatif, elle œuvre pour l'équité, la justice sociale et le vivre-ensemble.",
+      "role": "",
+      "quartier": "Les 400",
+      "profession": "Secrétaire administrative de l'Éducation nationale",
+      "age": 52
+    },
+    {
+      "numero": 27,
+      "nom": "Jean-René Dijoux",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/3.png",
+      "bio": "Habitant du 14e km, Jean-René Dijoux est garagiste spécialisé en réparation automobile. Militant de terrain, il privilégie le contact direct avec les habitants et défend une politique fondée sur la sincérité et la proximité.",
+      "role": "",
+      "quartier": "14e km",
+      "profession": "Garagiste",
+      "age": 58
+    },
+    {
+      "numero": 28,
+      "nom": "Sabrina Boulanger",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/25.png",
+      "bio": "Fille d'agriculteur et habitante du 12e km, Sabrina Boulanger travaille en tant qu'assistante logistique et est mère de deux enfants. Profondément humaniste et à l'écoute, elle souhaite accompagner chacun dans les démarches du quotidien, avec une attention particulière pour les personnes âgées isolées et les personnes en difficulté.",
+      "role": "",
+      "quartier": "12e km",
+      "profession": "Assistante logistique",
+      "age": 41
+    },
+    {
+      "numero": 29,
+      "nom": "Hugo Picard",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/12.png",
+      "bio": "Habitant de Grande Ferme, Hugo Picard est éleveur de bœufs. Son parcours professionnel l'a également conduit dans le BTP et les réseaux divers. Syndicaliste et membre de Domoun la Plaine, il défend le monde rural et les solidarités paysannes.",
+      "role": "",
+      "quartier": "Grande Ferme",
+      "profession": "Éleveur",
+      "age": 57
+    },
+    {
+      "numero": 30,
+      "nom": "Élodie Grondin",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/22.png",
+      "bio": "Restauratrice et gérante de la Case Dodie au centre-ville, Élodie Grondin est mère de deux enfants. Elle s'engage pour participer à la redynamisation du centre-ville et soutenir l'économie de proximité.",
+      "role": "",
+      "quartier": "SIDR 400",
+      "profession": "Restauratrice",
+      "age": 40
+    },
+    {
+      "numero": 31,
+      "nom": "Kévin Turpin",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/23.png",
+      "bio": "Cadre territorial, Kévin Turpin est responsable du service santé-prévention en collectivité. Ancien directeur de pôle dans un CCAS, il dispose d'une solide expérience dans le champ des ressources humaines, mais aussi de l'inclusion, de l'accessibilité et de l'accompagnement des publics les plus fragiles.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Cadre territorial",
+      "age": 32
+    },
+    {
+      "numero": 32,
+      "nom": "Anne Fontaine",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/20.png",
+      "bio": "Artiste engagée de la Plaine des Cafres, Anne Fontaine est investie dans de nombreux projets associatifs, culturels et agricoles. Créative et militante, elle défend une approche sensible, humble et collective du développement du territoire.",
+      "role": "",
+      "quartier": "26e km",
+      "profession": "Artiste et agricultrice",
+      "age": 42
+    },
+    {
+      "numero": 33,
+      "nom": "Max Belvisée",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/28.png",
+      "bio": "Cafriplainois, il est un ancien enseignant et directeur d'école primaire. Très engagé dans le monde de l'Éducation populaire, il a été alternativement bénévole, permanent et président des CEMÉA de La Réunion. Sur le plan politique, c'est un militant historique engagé à gauche depuis les années 80. Il est membre du Parti socialiste.",
+      "role": "",
+      "quartier": "26e km",
+      "profession": "Ancien directeur d'école",
+      "age": 71
+    },
+    {
+      "numero": 34,
+      "nom": "Cécile Cochard",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/27.png",
+      "bio": "Habitante du 17e km, Cécile Cochard travaille dans le secteur médical. Elle souhaite mettre son expérience professionnelle au service d'une politique locale attentive à la santé et au bien-être des habitants.",
+      "role": "",
+      "quartier": "17e km",
+      "profession": "Secrétaire médicale",
+      "age": 31
+    },
+    {
+      "numero": 35,
+      "nom": "Sliman Diallo",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/11.png",
+      "bio": "Après des études en histoire, Sliman Diallo a exercé comme ambulancier puis technicien respiratoire, avant de devenir guide au musée Stella Matutina. Engagé récemment en politique, il est animé par la volonté de développer une démocratie participative réelle, permettant aux citoyens de devenir acteurs des décisions publiques.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Médiateur culturel",
+      "age": 42
+    },
+    {
+      "numero": 36,
+      "nom": "Michèle Cadet",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/54.png",
+      "bio": "Ancienne institutrice, Michèle Cadet a grandi dans un environnement familial fortement politisé. Porteuse de valeurs humanistes et solidaires, elle s'engage avec conviction pour la justice sociale et le vivre-ensemble.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Professeure des écoles à la retraite",
+      "age": 64
+    },
+    {
+      "numero": 37,
+      "nom": "Jean-Pierre Damour",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/30.png",
+      "bio": "Retraité de l'Office national des forêts, Jean-Pierre Damour est un passionné de nature et de son territoire, qu'il connaît intimement, de Bourg-Murat à Notre-Dame de la Paix. Apprécié pour sa sincérité et son humanité, il s'engage pour la préservation de l'environnement.",
+      "role": "",
+      "quartier": "27e km",
+      "profession": "Agent de l'ONF à la retraite",
+      "age": 70
+    },
+    {
+      "numero": 38,
+      "nom": "Érika Hoareau",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/53.png",
+      "bio": "Habitante de Pont d'Yves et mère d'une jeune fille, Érika est diplômée dans le domaine social. Elle a exercé plusieurs fonctions en lien avec le handicap, le logement et la lutte contre les violences conjugales. Depuis 7 ans, elle est responsable de secteur dans les services à la personne.",
+      "role": "",
+      "quartier": "Pont d'Yves",
+      "profession": "Responsable de secteur dans les services à la personne",
+      "age": 37
+    },
+    {
+      "numero": 39,
+      "nom": "Jacky Robert",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/44.png",
+      "bio": "Originaire de Bras-de-Pontho, Jacky Robert est un ancien commerçant aujourd'hui à la retraite, installé à Terrain Fleury. Figure historique du PCR, de la gauche tamponnaise et membre de l'APR, il rejoint la liste parce qu'il croit au changement et à l'espoir d'un Tampon plus juste et plus solidaire.",
+      "role": "",
+      "quartier": "Terrain Fleury",
+      "profession": "Commerçant retraité",
+      "age": 65
+    },
+    {
+      "numero": 40,
+      "nom": "Tahia Blard",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/43.png",
+      "bio": "Née à Cayenne d'une mère polynésienne et d'un père réunionnais, Tahia a grandi au Tampon et est particulièrement sensible aux enjeux communs et aux solidarités qui traversent les territoires ultramarins. Titulaire d'un master en anthropologie, la benjamine de l'équipe souhaite poursuivre ses études en intégrant le master « Langue et culture créoles ». Elle est membre du PCR.",
+      "role": "",
+      "quartier": "Champcourt",
+      "profession": "Étudiante",
+      "age": 23
+    },
+    {
+      "numero": 41,
+      "nom": "Jean-Hugues Cadet",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/42.png",
+      "bio": "Passionné de sport, d'arts et de danse, Jean-Hugues Cadet est à la fois un éducateur sportif reconnu et un militant politique historique de la gauche. Profondément engagé contre les injustices et animé par ses convictions, il a participé à de nombreuses luttes, dont celle des Gilets jaunes.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Agent de la SNCF à la retraite",
+      "age": 69
+    },
+    {
+      "numero": 42,
+      "nom": "Renée Joséphine",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/33.png",
+      "bio": "Habitante de la Plaine des Cafres, Renée Joséphine est retraitée de l'Éducation nationale et militante de l'Éducation populaire. Membre d'une AMAP, elle défend les circuits courts, la solidarité et l'engagement associatif.",
+      "role": "",
+      "quartier": "23e km",
+      "profession": "Retraitée de l'Éducation nationale",
+      "age": 69
+    },
+    {
+      "numero": 43,
+      "nom": "Erwan Molinié",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/48.png",
+      "bio": "Doctorant en sociologie, Erwan Molinié travaille sur les liens entre inégalités sociales et environnement et notamment sur l'exposition des travailleurs agricoles réunionnais aux pesticides et les enjeux de transition écologique de l'agriculture réunionnaise. Cofondateur de l'Observatoire Terre-Monde.",
+      "role": "",
+      "quartier": "La Chatoire",
+      "profession": "Doctorant en sociologie",
+      "age": 32
+    },
+    {
+      "numero": 44,
+      "nom": "Marie-Noëlle Legros",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/13.png",
+      "bio": "Habitante du Dassy, Marie-Noëlle Legros est une ancienne aide-ménagère à domicile, aujourd'hui à la retraite. Maman et grand-mère, c'est une femme au grand cœur, connue pour son franc-parler et sa bienveillance. Elle incarne une solidarité simple et sincère, portée par des valeurs fortes de partage et d'humanisme.",
+      "role": "",
+      "quartier": "Dassy",
+      "profession": "Aide à domicile à la retraite",
+      "age": 64
+    },
+    {
+      "numero": 45,
+      "nom": "Jocelyn Soubaya",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/47.png",
+      "bio": "Travailleur à la CILAM depuis l'âge de 18 ans, père de 3 enfants, Jocelyn Soubaya a grandi à la Plaine des Cafres au 24ème et habite désormais au 19ème. C'est un militant de longue date, profondément attaché à la lutte contre les injustices et la bataille pour les personnes les plus démunies.",
+      "role": "",
+      "quartier": "19e km",
+      "profession": "Ouvrier polyvalent à la retraite",
+      "age": 62
+    },
+    {
+      "numero": 46,
+      "nom": "Claudette Damour",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/32.png",
+      "bio": "Originaire de la Plaine-des-Cafres, Claudette vit aujourd'hui à Bras-Creux. Agente d'entretien, ou plutôt \"serpillologue\" comme elle aime à se décrire, elle est très investie dans la cause animale et fait du bien-être et de la protection des animaux un combat prioritaire.",
+      "role": "",
+      "quartier": "Bras-Creux",
+      "profession": "Agente d'entretien",
+      "age": 62
+    },
+    {
+      "numero": 47,
+      "nom": "Jacky Malet",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/41.png",
+      "bio": "Ancien restaurateur et propriétaire du mythique \"Pavillon créole\" au Tampon, Jacky Malet est un militant de gauche de longue date. Ancien dirigeant de l'USST dans les années 80, il est très attaché au sport et à l'intérêt collectif.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Ancien restaurateur",
+      "age": 76
+    },
+    {
+      "numero": 48,
+      "nom": "Blandine Hureau",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/37.png",
+      "bio": "Institutrice retraitée, Marie Blandine Hureau s'est engagée tout au long de sa carrière auprès d'enfants en difficulté, puis d'adolescents en situation de handicap. Elle a également accompagné des adultes sans-abri. Militante à La France insoumise depuis 2020.",
+      "role": "",
+      "quartier": "Trois-Mares",
+      "profession": "Professeure des écoles à la retraite",
+      "age": 63
+    },
+    {
+      "numero": 49,
+      "nom": "Eddy Moultson",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/52.png",
+      "bio": "Habitant du centre-ville, Eddy Moultson est cadre territorial en ingénierie de formation professionnelle. Également engagé dans les questions écologiques, il met ses compétences au service d'un projet de transition et de développement humain. Il est aussi spécialisé dans le patrimoine culturel réunionnais. Il est membre de Génération écologie.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Cadre territorial",
+      "age": 47
+    },
+    {
+      "numero": 50,
+      "nom": "Erika Charlettine-Blard",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/31.png",
+      "bio": "Habitante du Dassy, Erika Blard est une militante pour les droits des femmes. Elle a travaillé en tant qu'auxiliaire de vie dans des associations et collectivités pour des personnes âgées ou en situation de handicap ou souffrant d'Alzheimer.",
+      "role": "",
+      "quartier": "Dassy",
+      "profession": "Auxiliaire de vie",
+      "age": 41
+    },
+    {
+      "numero": 51,
+      "nom": "Rico Carassou",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/46.png",
+      "bio": "Originaire de Trois-Mares, Rico Carassou est un ancien transporteur indépendant qui habite aujourd'hui au centre-ville. Militant progressiste et humaniste de longue date, Rico Carassou a été candidat aux élections municipales sous les couleurs du PCR.",
+      "role": "",
+      "quartier": "Centre-ville",
+      "profession": "Ancien transporteur indépendant",
+      "age": 78
+    },
+    {
+      "numero": 52,
+      "nom": "Graziella Leveneur",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/9.png",
+      "bio": "Habitante de Trois-Mares, Graziella Leveneur est retraitée de l'Éducation nationale. Elle a une longue expérience politique et a œuvré au sein d'associations pour la défense de la culture, des droits des femmes et l'engagement citoyen. Elle est également la première femme à avoir écrit un roman en créole.",
+      "role": "",
+      "quartier": "Trois-Mares",
+      "profession": "Retraitée de l'Éducation nationale",
+      "age": 68
+    },
+    {
+      "numero": 53,
+      "nom": "Yoland Lebon",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/35.png",
+      "bio": "Conducteur d'engins et figure emblématique de son quartier, Yoland Lebon est reconnu pour sa générosité et son sens profond de l'entraide. Toujours présent pour aider les autres, il incarne une solidarité concrète, quotidienne et il rayonne par sa personnalité joviale et charismatique.",
+      "role": "",
+      "quartier": "La Chatoire",
+      "profession": "Conducteur d'engins",
+      "age": 60
+    },
+    {
+      "numero": 54,
+      "nom": "Rose-May Niobé",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-27-at-20.59.13.jpeg",
+      "bio": "Habitante de Trois-Mares, Rose-May Niobé, dite « Mémé », est une militante historique issue d'un milieu très modeste. Engagée très jeune dans les luttes progressistes, elle a participé à de nombreux combats au Tampon et à La Réunion.",
+      "role": "",
+      "quartier": "Trois-Mares",
+      "profession": "Retraitée de la fonction publique territoriale",
+      "age": 75
+    },
+    {
+      "numero": 55,
+      "nom": "Philippe Berne",
+      "photo": "https://letampon2026.com/wp-content/uploads/2026/02/51.png",
+      "bio": "Ancien vice-président de Région et figure emblématique du Parti Communiste Réunionnais, Philippe Berne a accompagné Paul Vergès dans de grands projets structurants tels que la Route des Tamarins, la Réserve marine et le Parc national. Il est un fin connaisseur des enjeux climatiques et environnementaux.",
+      "role": "",
+      "quartier": "12e km",
+      "profession": "Ancien professeur agrégé de Sciences et Vie et de la Terre",
+      "age": 82
+    }
+  ]
+}

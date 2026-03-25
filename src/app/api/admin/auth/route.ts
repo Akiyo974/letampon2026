@@ -1,0 +1,27 @@
+import { NextRequest, NextResponse } from 'next/server';
+
+export async function POST(request: NextRequest) {
+  const { password } = await request.json() as { password?: string };
+  const validPassword = process.env.ADMIN_PASSWORD ?? 'letampon2026';
+  const validToken = process.env.ADMIN_SECRET ?? 'letampon2026admin';
+
+  if (password !== validPassword) {
+    return NextResponse.json({ error: 'Mot de passe incorrect' }, { status: 401 });
+  }
+
+  const response = NextResponse.json({ success: true });
+  response.cookies.set('admin_token', validToken, {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'lax',
+    maxAge: 60 * 60 * 24 * 7, // 7 jours
+    path: '/',
+  });
+  return response;
+}
+
+export async function DELETE() {
+  const response = NextResponse.json({ success: true });
+  response.cookies.delete('admin_token');
+  return response;
+}
