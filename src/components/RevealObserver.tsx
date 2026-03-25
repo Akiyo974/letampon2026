@@ -21,7 +21,7 @@ export default function RevealObserver() {
           }
         });
       },
-      { threshold: 0.07, rootMargin: '0px 0px -44px 0px' }
+      { threshold: 0, rootMargin: '0px 0px -44px 0px' }
     );
 
     // Petit délai pour laisser la nouvelle page se rendre
