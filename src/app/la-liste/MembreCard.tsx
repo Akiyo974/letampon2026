@@ -25,7 +25,7 @@ export default function MembreCard({ membre }: { membre: Membre }) {
   const bioLong = membre.bio && membre.bio.length > 160;
 
   return (
-    <div className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow flex flex-col">
+    <div className="bg-white overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300">
       {/* Photo */}
       <div className="relative h-56 bg-gray-100">
         <Image
@@ -37,13 +37,13 @@ export default function MembreCard({ membre }: { membre: Membre }) {
         />
         {/* Badge numéro */}
         <div
-          className="absolute top-3 left-3 w-9 h-9 rounded-full flex items-center justify-center font-black text-sm shadow-md"
+          className="absolute top-3 left-3 w-8 h-8 flex items-center justify-center font-black text-xs shadow"
           style={{ background: borderColor, color: isYellow ? '#333' : 'white' }}
         >
           {membre.numero}
         </div>
         {membre.role && (
-          <div className="absolute bottom-0 left-0 right-0 bg-black/60 px-3 py-1.5 text-white text-xs font-semibold text-center">
+          <div className="absolute bottom-0 left-0 right-0 bg-black/60 px-3 py-1.5 text-white text-xs font-semibold">
             {membre.role}
           </div>
         )}

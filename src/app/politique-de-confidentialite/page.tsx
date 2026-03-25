@@ -1,8 +1,20 @@
 export default function PolitiqueConfidentialitePage() {
   return (
-    <section className="py-16 bg-white">
+    <>
+      <section style={{ background: '#111' }} className="pt-20 pb-0">
+        <div className="max-w-7xl mx-auto px-6 sm:px-12 pb-16">
+          <p className="text-xs uppercase tracking-[0.3em] font-semibold mb-5 text-white/40">Données personnelles</p>
+          <h1 className="text-white font-black leading-tight" style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)' }}>Politique de confidentialité</h1>
+        </div>
+        <div className="h-1 flex">
+          <div className="flex-1" style={{ background: '#9C35DD' }} />
+          <div className="flex-1" style={{ background: '#4EB168' }} />
+          <div className="flex-1" style={{ background: '#FEED00' }} />
+          <div className="flex-1" style={{ background: '#EF1923' }} />
+        </div>
+      </section>
+      <section className="py-16 bg-white">
       <div className="max-w-3xl mx-auto px-6">
-        <h1 className="text-4xl font-black text-gray-900 mb-8">Politique de confidentialité</h1>
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <h2 className="text-2xl font-bold text-gray-800">Collecte des données personnelles</h2>
           <p>
@@ -46,5 +58,6 @@ export default function PolitiqueConfidentialitePage() {
         </div>
       </div>
     </section>
+    </>
   );
 }
