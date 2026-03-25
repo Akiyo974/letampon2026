@@ -55,7 +55,7 @@ export default function QuiSuisJePage() {
             <span className="text-xs uppercase tracking-[0.25em] font-semibold" style={{ color: '#4EB168' }}>Galerie</span>
             <h2 className="text-2xl sm:text-3xl font-black text-gray-900 mt-2">En images</h2>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 stagger-children">
             {qui.photos.map((photo, i) => (
               <div key={i} className="relative overflow-hidden" style={{ aspectRatio: '4/3' }}>
                 <Image src={photo} alt={`Photo ${i + 1}`} fill className="object-cover hover:scale-105 transition-transform duration-500" />

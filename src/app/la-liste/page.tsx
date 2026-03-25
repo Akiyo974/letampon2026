@@ -31,7 +31,7 @@ export default function LaListePage() {
       {/* Grille membres */}
       <section className="py-20" style={{ background: '#f7f6f4' }}>
         <div className="max-w-7xl mx-auto px-6 sm:px-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 stagger-children">
             {membres.map((membre) => (
               <MembreCard key={membre.numero} membre={membre} />
             ))}

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import RevealObserver from "@/components/RevealObserver";
 import settings from "@/../content/settings.json";
 
 const inter = Inter({
@@ -143,6 +144,7 @@ export default function RootLayout({
           />
         </Link>
         <Header />
+        <RevealObserver />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

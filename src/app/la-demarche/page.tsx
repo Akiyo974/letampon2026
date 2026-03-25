@@ -47,7 +47,7 @@ export default function DemarchePage() {
             <span className="text-xs uppercase tracking-[0.25em] font-semibold" style={{ color: '#9C35DD' }}>Participation</span>
             <h2 className="text-2xl sm:text-3xl font-black text-gray-900 mt-2">Comment participer&nbsp;?</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 stagger-children">
             {demarche.piliers.map((pilier, i) => {
               const colors = ['#9C35DD', '#4EB168', '#EF1923'];
               return (
