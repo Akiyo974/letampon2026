@@ -128,18 +128,28 @@ export default function SettingsAdmin() {
           <h2 className="font-black text-lg text-gray-900 mb-4">Permanence</h2>
           <div className="space-y-4">
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Adresse</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">Adresse principale</label>
               <input type="text" value={settings.permanence?.adresse ?? ''} onChange={(e) => upd(['permanence', 'adresse'], e.target.value)}
                 className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none" />
             </div>
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Horaires</label>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">Horaires principale</label>
               <input type="text" value={settings.permanence?.horaires ?? ''} onChange={(e) => upd(['permanence', 'horaires'], e.target.value)}
                 className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none" />
             </div>
             <div>
-              <label className="block text-xs font-semibold text-gray-600 mb-1">Permanence 17ème km</label>
-              <input type="text" value={settings.permanence?.permanence17 ?? ''} onChange={(e) => upd(['permanence', 'permanence17'], e.target.value)}
+              <label className="block text-xs font-semibold text-gray-600 mb-1">RDV sans RDV (info complémentaire)</label>
+              <input type="text" value={(settings.permanence as Record<string, string>)?.rdvSansRdv ?? ''} onChange={(e) => upd(['permanence', 'rdvSansRdv'], e.target.value)}
+                className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none" />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">Adresse permanence 17ème km</label>
+              <input type="text" value={(settings.permanence as Record<string, string>)?.permanence17Adresse ?? ''} onChange={(e) => upd(['permanence', 'permanence17Adresse'], e.target.value)}
+                className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none" />
+            </div>
+            <div>
+              <label className="block text-xs font-semibold text-gray-600 mb-1">Horaires permanence 17ème km</label>
+              <input type="text" value={(settings.permanence as Record<string, string>)?.permanence17Horaires ?? ''} onChange={(e) => upd(['permanence', 'permanence17Horaires'], e.target.value)}
                 className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none" />
             </div>
           </div>

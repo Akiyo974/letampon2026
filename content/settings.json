@@ -5,15 +5,17 @@
   "logo": "/images/logo.png",
   "favicon": "/favicon.ico",
   "reseaux": {
-    "facebook": "https://www.facebook.com/letampon2026",
-    "instagram": "",
-    "twitter": "",
+    "facebook": "https://www.facebook.com/alexischaussalet",
+    "instagram": "https://www.instagram.com/alexischaussalet/",
+    "tiktok": "https://www.tiktok.com/@alexischaussalet",
     "youtube": ""
   },
   "permanence": {
-    "adresse": "Centre-ville du Tampon",
-    "horaires": "Du lundi au vendredi de 9h à 17h",
-    "permanence17": "Permanence du 17ème km ouverte tous les samedis de 9h à 12h"
+    "adresse": "5 bis rue du Docteur Henri Roussel",
+    "horaires": "Du lundi au vendredi de 9h à 12h et de 14h à 17h",
+    "rdvSansRdv": "Je reçois sans RDV les mercredis après-midi de 14h à 17h",
+    "permanence17Adresse": "176 rue des Poinsetias",
+    "permanence17Horaires": "Ouverte tous les vendredis de 14h à 17h"
   },
   "contact": {
     "email": "contact@letampon2026.com",

@@ -12,10 +12,13 @@
       "type": "texte-image",
       "titre": "Faire de la politique autrement, au Tampon.",
       "contenu": "Trop de promesses électorales restent lettre morte. Avec la liste « Nout' voix, nout' l'avenir », nous voulons redonner le pouvoir aux Tamponnaises et aux Tamponnais.",
-      "image": "https://letampon2026.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-17-at-21.14.16.jpeg",
+      "contenu2": "Voter tous les six ans ne suffit plus : les habitants doivent devenir des acteurs à part entière du développement de leur commune. Notre projet repose sur la proximité, la transparence et la solidarité, avec des engagements concrets pour le logement, la jeunesse, la culture, l'agriculture et la mobilité.",
+      "image": "https://letampon2026.com/wp-content/uploads/2025/10/Image-148-sur-154-copie-scaled.jpg",
       "imagePosition": "droite",
-      "ctaTexte": "Qui suis-je ?",
-      "ctaLien": "/qui-suis-je"
+      "ctaTexte": "Découvrir le programme",
+      "ctaLien": "/programme",
+      "ctaSecondaireTexte": "S'engager dès maintenant",
+      "ctaSecondaireLien": "/contact"
     },
     {
       "id": "contributions",
@@ -74,7 +77,7 @@
       "id": "contact-bas",
       "type": "contact-résumé",
       "titre": "Vous voulez nous exprimer vos idées ou votre soutien ?",
-      "contenu": "Votre participation compte. Notre campagne est une aventure collective, ancrée dans la réalité du Tampon et portée par celles et ceux qui la vivent au quotidien.",
+      "contenu": "Votre participation compte. Notre campagne est une aventure collective, ancrée dans la réalité du Tampon et portée par celles et ceux qui la vivent au quotidien. Ainsi, chacun peut y contribuer : en participant à notre \"marmite à idées\", en partageant nos idées, en relayant notre démarche autour de soi.",
       "ctaTexte": "Nous contacter",
       "ctaLien": "/contact"
     }

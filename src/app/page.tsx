@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import accueil from '@/../content/pages/accueil.json';
+import settings from '@/../content/settings.json';
 
 export default function AccueilPage() {
   const { hero, sections } = accueil;
+  const { reseaux, permanence } = settings;
 
   return (
     <>
@@ -41,6 +43,31 @@ export default function AccueilPage() {
                 {hero.ctaSecondaire.texte}
               </Link>
             </div>
+
+            {/* Réseaux sociaux */}
+            <div className="flex items-center justify-center gap-4 mt-8">
+              {reseaux.facebook && (
+                <Link href={reseaux.facebook} target="_blank" rel="noopener noreferrer"
+                  className="w-11 h-11 rounded-full bg-white/20 hover:bg-white/35 flex items-center justify-center transition-colors"
+                  aria-label="Facebook">
+                  <svg className="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                </Link>
+              )}
+              {reseaux.instagram && (
+                <Link href={reseaux.instagram} target="_blank" rel="noopener noreferrer"
+                  className="w-11 h-11 rounded-full bg-white/20 hover:bg-white/35 flex items-center justify-center transition-colors"
+                  aria-label="Instagram">
+                  <svg className="w-5 h-5 fill-white" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="none" stroke="white" strokeWidth="2"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg>
+                </Link>
+              )}
+              {reseaux.tiktok && (
+                <Link href={reseaux.tiktok} target="_blank" rel="noopener noreferrer"
+                  className="w-11 h-11 rounded-full bg-white/20 hover:bg-white/35 flex items-center justify-center transition-colors"
+                  aria-label="TikTok">
+                  <svg className="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.28 6.28 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.77a4.85 4.85 0 01-1.01-.08z"/></svg>
+                </Link>
+              )}
+            </div>
           </div>
         </div>
         {/* Bande colorée */}
@@ -54,7 +81,7 @@ export default function AccueilPage() {
 
       {sections.map((section) => {
         if (section.type === 'texte-image') {
-          const s = section as typeof section & { image: string; imagePosition: string; ctaTexte?: string; ctaLien?: string };
+          const s = section as typeof section & { image: string; imagePosition: string; contenu2?: string; ctaTexte?: string; ctaLien?: string; ctaSecondaireTexte?: string; ctaSecondaireLien?: string };
           return (
             <section key={section.id} className="py-20 bg-white">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,16 +90,30 @@ export default function AccueilPage() {
                     <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-6">
                       {section.titre}
                     </h2>
-                    <p className="text-lg text-gray-600 leading-relaxed mb-8">{section.contenu}</p>
-                    {s.ctaLien && (
-                      <Link
-                        href={s.ctaLien}
-                        className="inline-block px-6 py-3 rounded-full font-semibold text-white transition-transform hover:scale-105"
-                        style={{ background: '#9C35DD' }}
-                      >
-                        {s.ctaTexte}
-                      </Link>
+                    <p className="text-lg text-gray-600 leading-relaxed mb-4">{section.contenu}</p>
+                    {s.contenu2 && (
+                      <p className="text-lg text-gray-600 leading-relaxed mb-8">{s.contenu2}</p>
                     )}
+                    <div className="flex flex-col sm:flex-row gap-3 mt-4">
+                      {s.ctaLien && (
+                        <Link
+                          href={s.ctaLien}
+                          className="inline-block px-6 py-3 rounded-full font-semibold text-white text-center transition-transform hover:scale-105"
+                          style={{ background: '#9C35DD' }}
+                        >
+                          {s.ctaTexte}
+                        </Link>
+                      )}
+                      {s.ctaSecondaireLien && (
+                        <Link
+                          href={s.ctaSecondaireLien}
+                          className="inline-block px-6 py-3 rounded-full font-semibold text-center border-2 transition-colors"
+                          style={{ borderColor: '#9C35DD', color: '#9C35DD' }}
+                        >
+                          {s.ctaSecondaireTexte}
+                        </Link>
+                      )}
+                    </div>
                   </div>
                   <div className="flex-1 w-full">
                     <div className="relative w-full rounded-2xl overflow-hidden shadow-xl bg-gray-50" style={{ aspectRatio: '16/9' }}>
@@ -168,9 +209,25 @@ export default function AccueilPage() {
           return (
             <section key={section.id} className="py-24 relative overflow-hidden">
               <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, #9C35DD 0%, #4EB168 100%)' }} />
-              <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+              <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
                 <h2 className="text-3xl sm:text-4xl font-black mb-6">{section.titre}</h2>
-                <p className="text-xl mb-10 opacity-90">{s.contenu}</p>
+                <p className="text-xl mb-10 opacity-90 max-w-2xl mx-auto">{s.contenu}</p>
+
+                {/* Permanences */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 text-left">
+                  <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-5">
+                    <p className="font-black text-lg mb-1">📍 Permanence principale</p>
+                    <p className="font-semibold">{permanence.adresse}</p>
+                    <p className="text-sm opacity-90 mt-1">{permanence.horaires}</p>
+                    {permanence.rdvSansRdv && <p className="text-sm opacity-80 mt-1 italic">{permanence.rdvSansRdv}</p>}
+                  </div>
+                  <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-5">
+                    <p className="font-black text-lg mb-1">📍 Permanence du 17ème km</p>
+                    <p className="font-semibold">{permanence.permanence17Adresse}</p>
+                    <p className="text-sm opacity-90 mt-1">{permanence.permanence17Horaires}</p>
+                  </div>
+                </div>
+
                 {s.ctaLien && (
                   <Link
                     href={s.ctaLien}
