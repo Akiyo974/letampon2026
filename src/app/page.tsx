@@ -16,28 +16,31 @@ export default function AccueilPage() {
           className="object-cover object-center"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
-            {hero.titre}
-          </h1>
-          <p className="text-lg sm:text-xl max-w-2xl mx-auto mb-10 text-gray-200 leading-relaxed">
-            {hero.sousTitre}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href={hero.ctaPrimaire.lien}
-              className="px-8 py-4 rounded-full font-bold text-lg text-white shadow-lg transition-transform hover:scale-105"
-              style={{ background: '#9C35DD' }}
-            >
-              {hero.ctaPrimaire.texte}
-            </Link>
-            <Link
-              href={hero.ctaSecondaire.lien}
-              className="px-8 py-4 rounded-full font-bold text-lg border-2 border-white text-white hover:bg-white hover:text-gray-900 transition-colors"
-            >
-              {hero.ctaSecondaire.texte}
-            </Link>
+        <div className="absolute inset-0 bg-black/55" />
+        <div className="relative z-10 text-center text-white max-w-3xl mx-auto px-6">
+          {/* Panneau flouté derrière le texte */}
+          <div className="bg-black/40 backdrop-blur-md rounded-3xl px-8 py-10 ring-1 ring-white/10 shadow-2xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6 drop-shadow-lg">
+              {hero.titre}
+            </h1>
+            <p className="text-lg sm:text-xl max-w-2xl mx-auto mb-10 text-gray-100 leading-relaxed drop-shadow">
+              {hero.sousTitre}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href={hero.ctaPrimaire.lien}
+                className="px-8 py-4 rounded-full font-bold text-lg text-white shadow-lg transition-transform hover:scale-105"
+                style={{ background: '#9C35DD' }}
+              >
+                {hero.ctaPrimaire.texte}
+              </Link>
+              <Link
+                href={hero.ctaSecondaire.lien}
+                className="px-8 py-4 rounded-full font-bold text-lg border-2 border-white text-white hover:bg-white hover:text-gray-900 transition-colors"
+              >
+                {hero.ctaSecondaire.texte}
+              </Link>
+            </div>
           </div>
         </div>
         {/* Bande colorée */}

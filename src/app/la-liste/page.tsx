@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import liste from '@/../content/pages/la-liste.json';
+import MembreCard from './MembreCard';
 
 export default function LaListePage() {
   const { titre, intro, membres } = liste;
@@ -34,64 +34,5 @@ export default function LaListePage() {
         </div>
       </section>
     </>
-  );
-}
-
-type Membre = {
-  numero: number;
-  nom: string;
-  photo: string;
-  profession: string;
-  age: number;
-  bio: string;
-  role: string;
-  quartier: string;
-};
-
-const borderColors = ['#9C35DD', '#4EB168', '#FEED00', '#EF1923'];
-
-function MembreCard({ membre }: { membre: Membre }) {
-  const borderColor = borderColors[(membre.numero - 1) % 4];
-  const isYellow = borderColor === '#FEED00';
-
-  return (
-    <div className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow flex flex-col">
-      {/* Photo */}
-      <div className="relative h-56 bg-gray-100">
-        <Image
-          src={membre.photo}
-          alt={membre.nom}
-          fill
-          className="object-cover object-top"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-        />
-        {/* Badge numéro */}
-        <div
-          className="absolute top-3 left-3 w-9 h-9 rounded-full flex items-center justify-center font-black text-sm shadow-md"
-          style={{ background: borderColor, color: isYellow ? '#333' : 'white' }}
-        >
-          {membre.numero}
-        </div>
-        {membre.role && (
-          <div className="absolute bottom-0 left-0 right-0 bg-black/60 px-3 py-1.5 text-white text-xs font-semibold text-center">
-            {membre.role}
-          </div>
-        )}
-      </div>
-
-      {/* Infos */}
-      <div className="p-4 flex-1 flex flex-col" style={{ borderTop: `3px solid ${borderColor}` }}>
-        <h3 className="font-black text-gray-900 text-base mb-0.5">{membre.nom}</h3>
-        {membre.profession && (
-          <p className="text-xs italic text-gray-500 mb-1">{membre.profession}</p>
-        )}
-        {membre.quartier && (
-          <p className="text-xs font-medium mb-3" style={{ color: '#9C35DD' }}>
-            📍 {membre.quartier}{membre.age ? ` · ${membre.age} ans` : ''}
-          </p>
-        )}
-        <p className="text-gray-600 text-xs leading-relaxed line-clamp-4 flex-1">{membre.bio}</p>
-      </div>
-    </div>
   );
 }
