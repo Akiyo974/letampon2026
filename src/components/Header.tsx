@@ -9,7 +9,7 @@ export default function Header() {
   const items = navData.items.filter((i) => i.visible);
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
+    <header className="bg-white shadow-sm">
       {/* Barre de navigation */}
       <div className="bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
