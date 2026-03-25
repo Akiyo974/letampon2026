@@ -121,26 +121,33 @@ export default function RootLayout({
           {/* ─── BARRE TOP ─── */}
           <div
             style={{
-              background: '#000',
-              borderBottom: '1px solid #2a2a2a',
+              background: '#0a0a0a',
+              borderBottom: '2px solid #222',
               fontFamily: 'ui-monospace, SFMono-Regular, monospace',
             }}
-            className="flex items-center justify-center sm:justify-between px-5 py-2"
+            className="px-4 sm:px-6 py-2.5"
           >
-            <span style={{ fontSize: '8px', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#fff', opacity: 0.35 }}>
-              Site test
-            </span>
-            <a
-              href="https://christendijoux.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ fontSize: '11px', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#fff', fontWeight: 700, textDecoration: 'none' }}
-            >
-              Christen Dijoux
-            </a>
-            <span style={{ fontSize: '8px', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#fff', opacity: 0.3 }}>
-              Non revendiqué
-            </span>
+            {/* Ligne 1 : titre central */}
+            <div className="flex items-center justify-between gap-4">
+              <span style={{ fontSize: '9px', letterSpacing: '0.3em', textTransform: 'uppercase', color: '#ef4444', fontWeight: 700 }}>
+                ⚠ Site test
+              </span>
+              <a
+                href="https://christendijoux.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontSize: '12px', letterSpacing: '0.25em', textTransform: 'uppercase', color: '#fff', fontWeight: 700, textDecoration: 'none' }}
+              >
+                Christen Dijoux
+              </a>
+              <span style={{ fontSize: '9px', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#fff', opacity: 0.4 }}>
+                Non officiel
+              </span>
+            </div>
+            {/* Ligne 2 : avertissement */}
+            <p style={{ fontSize: '10px', color: '#aaa', textAlign: 'center', marginTop: '3px', letterSpacing: '0.05em' }}>
+              Reproduction non commerciale · Contenu appartenant à ses auteurs · Réalisé à titre de démonstration technique uniquement
+            </p>
           </div>
           <Header />
         </div>
