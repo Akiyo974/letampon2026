@@ -78,6 +78,35 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+      {/* ─── SECOND CRÉDIT ─────────────────────────────────────────── */}
+      <div
+        style={{
+          background: '#000',
+          borderTop: '1px solid #1a1a1a',
+          fontFamily: 'ui-monospace, SFMono-Regular, monospace',
+        }}
+      >
+        <div className="max-w-7xl mx-auto px-5 py-3 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <span style={{ fontSize: '9px', letterSpacing: '0.25em', textTransform: 'uppercase', color: '#fff', opacity: 0.25 }}>
+            Reproduction non commerciale · Le contenu appartient à ses auteurs respectifs
+          </span>
+          <a
+            href="https://christendijoux.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontSize: '11px', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#fff', fontWeight: 700, textDecoration: 'none', opacity: 0.9 }}
+            className="hover:opacity-60 transition-opacity"
+          >
+            christendijoux.com
+          </a>
+          <span style={{ fontSize: '9px', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#fff', opacity: 0.2 }}>
+            Site test · 2026
+          </span>
+        </div>
+      </div>
+      {/* ─────────────────────────────────────────────────────────────── */}
+
     </footer>
   );
 }

@@ -96,6 +96,39 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`${inter.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="min-h-full flex flex-col">
+
+        {/* ─── CADRE TEST ─── barres latérales fixes */}
+        <div aria-hidden style={{ position: 'fixed', left: 0, top: 0, bottom: 0, width: '3px', background: '#ffffff', zIndex: 9999, pointerEvents: 'none' }} />
+        <div aria-hidden style={{ position: 'fixed', right: 0, top: 0, bottom: 0, width: '3px', background: '#ffffff', zIndex: 9999, pointerEvents: 'none' }} />
+
+        {/* ─── BARRE TOP ─── */}
+        <div
+          style={{
+            position: 'sticky',
+            top: 0,
+            zIndex: 9998,
+            background: '#000',
+            borderBottom: '1px solid #2a2a2a',
+            fontFamily: 'ui-monospace, SFMono-Regular, monospace',
+          }}
+          className="flex items-center justify-between px-5 py-2"
+        >
+          <span style={{ fontSize: '9px', letterSpacing: '0.3em', textTransform: 'uppercase', color: '#fff', opacity: 0.35 }}>
+            Site test
+          </span>
+          <a
+            href="https://christendijoux.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontSize: '11px', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#fff', fontWeight: 700, textDecoration: 'none' }}
+          >
+            Christen Dijoux
+          </a>
+          <span style={{ fontSize: '9px', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#fff', opacity: 0.3 }}>
+            Contenu non revendiqué
+          </span>
+        </div>
+
         {/* Logo banner — défile naturellement avec la page */}
         <Link href="/" className="block w-full bg-white">
           <Image
