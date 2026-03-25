@@ -127,7 +127,7 @@ export default function RootLayout({
             }}
             className="flex items-center justify-center sm:justify-between px-5 py-2"
           >
-            <span className="hidden sm:inline" style={{ fontSize: '9px', letterSpacing: '0.3em', textTransform: 'uppercase', color: '#fff', opacity: 0.35 }}>
+            <span style={{ fontSize: '8px', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#fff', opacity: 0.35 }}>
               Site test
             </span>
             <a
@@ -138,8 +138,8 @@ export default function RootLayout({
             >
               Christen Dijoux
             </a>
-            <span className="hidden sm:inline" style={{ fontSize: '9px', letterSpacing: '0.2em', textTransform: 'uppercase', color: '#fff', opacity: 0.3 }}>
-              Contenu non revendiqué
+            <span style={{ fontSize: '8px', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#fff', opacity: 0.3 }}>
+              Non revendiqué
             </span>
           </div>
           <Header />
